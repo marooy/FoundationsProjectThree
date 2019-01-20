@@ -34,7 +34,7 @@ class Club():
         # your code goes here!
         for member in self.members:
          # print(str(self.president) + " (PRESIDENT OF THE CLUB)" )  
-         print(member) 
+         print(member)
 
 
     def __str__(self):

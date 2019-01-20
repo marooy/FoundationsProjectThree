@@ -111,7 +111,7 @@ def join_clubs():
     for club in clubs:
     	if (user_input.lower() == club.name.lower()):
             print("Members of the %s Are:" %(user_input) )
-            print(club.print_member_list());
+            club.print_member_list()
             print(club.president)
   
     		
