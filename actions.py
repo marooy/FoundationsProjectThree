@@ -70,7 +70,7 @@ def create_club():
     print("Club Name: " + new_club.name)
     print("Club Description: " + new_club.description)
     print("Members: ")
-    # print(new_club.president)
+    print(new_club.president)
     new_club.print_member_list()
     # print(" %s ( %s years old, President ) -  %s" % (, str(my_age),my_bio))
     # print(new_club.recruit_member())
@@ -111,7 +111,9 @@ def join_clubs():
     for club in clubs:
     	if (user_input.lower() == club.name.lower()):
             print("Members of the %s Are:" %(user_input) )
-            print(club.print_member_list());  
+            print(club.print_member_list());
+            print(club.president)
+  
     		
     		
             

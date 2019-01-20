@@ -33,8 +33,8 @@ class Club():
     def print_member_list(self):
         # your code goes here!
         for member in self.members:
-            print(member)
-        print(str(self.president) + " (PRESIDENT OF THE CLUB)" )   
+         # print(str(self.president) + " (PRESIDENT OF THE CLUB)" )  
+         print(member) 
 
 
     def __str__(self):
